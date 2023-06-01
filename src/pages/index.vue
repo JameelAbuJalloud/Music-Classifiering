@@ -97,10 +97,10 @@ onMounted(() => {
         </svg>
         <span>View on Github</span>
       </a>
-    </div>
     <av-waveform
     audio-src="Music-Classifiering/src/assets/blues.00000.wav"
     ></av-waveform>
+    </div>
   </main>
 
   <svg
