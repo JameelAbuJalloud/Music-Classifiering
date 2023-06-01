@@ -7,7 +7,7 @@ import App from '@/app.vue';
 import { routes } from '@/routes.js';
 import App from '@/App2.vue'
 
-createApp(App).mount('#App2')
+createApp(App2).mount('#App2')
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_PUBLIC_PATH),
