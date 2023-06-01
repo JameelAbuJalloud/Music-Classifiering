@@ -5,9 +5,9 @@ import '@/assets/styles/main.css';
 import '@/assets/styles/tailwind.css';
 import App from '@/app.vue';
 import { routes } from '@/routes.js';
-import App2 from './App2.vue'
+import App from '@/App2.vue'
 
-createApp(App2).mount('#app')
+createApp(App).mount('#App2')
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_PUBLIC_PATH),
