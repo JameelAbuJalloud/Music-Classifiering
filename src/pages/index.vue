@@ -59,6 +59,9 @@ onMounted(() => {
     <h1 class="pb-20 text-center text-6xl text-gray-700 transition-colors dark:text-gray-100">
       Music Classifier
     </h1>
+    <av-waveform
+    audio-src="Music-Classifiering/src/assets/blues.00000.wav"
+    ></av-waveform>
 
     <div class="flex justify-center space-x-4 pb-10">
       <a
@@ -97,9 +100,6 @@ onMounted(() => {
         </svg>
         <span>View on Github</span>
       </a>
-    <av-waveform
-    audio-src="Music-Classifiering/src/assets/blues.00000.wav"
-    ></av-waveform>
     </div>
   </main>
 
