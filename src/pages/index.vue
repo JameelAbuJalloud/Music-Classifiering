@@ -1,6 +1,9 @@
 <script setup>
 import { onMounted } from 'vue';
 import { currentTheme, initTheme, switchTheme } from '@/composables/theme.js';
+import AudioVisual from 'vue-audio-visual'
+
+Vue.use(AudioVisual)
 
 onMounted(() => {
   initTheme();
