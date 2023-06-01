@@ -99,7 +99,7 @@ onMounted(() => {
       </a>
     </div>
     <av-waveform
-    audio-src="/static/bar.mp3"
+    audio-src="Music-Classifiering/src/assets/blues.00000.wav"
     ></av-waveform>
   </main>
 
